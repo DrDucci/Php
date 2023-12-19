@@ -9,13 +9,13 @@
 <body>
 
 <form action=”index.php” method=”post”>
-    <label for="name">Hej</label>
+    <label for="name">Namn:</label>
     <input type=”text” name=”name” id=”name” required placeholder=Skriv ditt namn”></input>
 
-    <label for="num">Nummer</label>
+    <label for="num">Nummer:</label>
     <input type=”number” name=”num” id=”num”></input>
 
-    <label for="check">Ja eller nej?</label>
+    <label for="check">Ja eller nej:</label>
     <input type=”checkbox” name=”check” id=”check”></input>
 
     <textarea name=”name” id=”text” cols=”30” rows=”20”>Skriv här om du kan</textarea>
