@@ -10,13 +10,18 @@
     <?php
         if(isset($_POST['btn']))
             $strLink="<a href='".$_POST['link']."'>".htmlentities($_POST['desc'])."</a><br>".$_POST['linx']?>
-    <div class="Rutan">
-        <form action="add_issue.php" method="post">
-        <label for="title">Titel:</label>
-        <input type="text" name="title" required>
 
-        <label for="description">Din berättelse:</label>
-        <textarea name="description" required rows=6></textarea>
+    <div class="rutan">
+        <div id="box">
+            <form action="add_issue.php" method="post">
+            <label for="title">Titel:</label>
+            <input type="text" name="title" required>
+        </div>
+
+        <div id="box">
+            <label for="description">Din berättelse:</label>
+            <textarea name="description" required rows=6></textarea>
+        </div>
     </div>
 </body>
 </html>

@@ -1,0 +1,23 @@
+*{
+    border: 1px crimson solid;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 99vh;
+}
+
+.Rutan{
+    display: flex;
+    flex-direction: column;
+}
+
+#box{
+    display: flex;
+    justify-content: flex-end;
+}
