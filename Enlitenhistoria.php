@@ -8,8 +8,8 @@
 </head>
 <body>
     <?php
-        if(isset($_POST['btn'])){
-            $strLink="<a href='".$_POST['link']."'>".htmlentities($_POST['desc'])."</a><br>".$_POST['linx']} ?>
+        if(isset($_POST['btn']))
+            $strLink="<a href='".$_POST['link']."'>".htmlentities($_POST['desc'])."</a><br>".$_POST['linx']?>
 
         <form action="add_issue.php" method="post">
         <label for="title">Titel:</label>
