@@ -10,7 +10,7 @@
     <?php
         if(isset($_POST['btn']))
             $strLink="<a href='".$_POST['link']."'>".htmlentities($_POST['desc'])."</a><br>".$_POST['linx']?>
-
+    <div class="></div>
         <form action="add_issue.php" method="post">
         <label for="title">Titel:</label>
         <input type="text" name="title" required>
