@@ -12,6 +12,8 @@
             $strLink="<a href='".$_POST['link']."'>".htmlentities($_POST['desc'])."</a><br>".$_POST['linx']?>
 
     <div class="rutan">
+        <div class="rubrik"><h1>Din lilla berättelse</h1></div>
+
         <div id="box">
             <form action="add_issue.php" method="post">
             <label for="title">Titel:</label>
@@ -19,8 +21,12 @@
         </div>
 
         <div id="box">
-            <label for="description">Din berättelse:</label>
-            <textarea name="description" required rows=6></textarea>
+            <label for="description">Skriv din berättelse här:</label>
+            <textarea name="description"></textarea>
+        </div>
+
+        <div class="knappen">
+            <button>Lägg till</button>
         </div>
     </div>
 </body>

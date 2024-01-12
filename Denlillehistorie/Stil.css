@@ -1,5 +1,5 @@
 *{
-    border: 1px crimson solid;
+    --border: 1px crimson solid;
     margin: 0;
     padding: 0;
 }
@@ -12,12 +12,37 @@ body{
     height: 99vh;
 }
 
-.Rutan{
+.rutan{
     display: flex;
     flex-direction: column;
+
+    padding: 2rem;
+    border-radius: 5px;
+  
+
+    background-color: burlywood;
+}
+
+.rubrik{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 95%;
+}
+
+.knappen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 2vh;
 }
 
 #box{
     display: flex;
     justify-content: flex-end;
+
+    margin-top: 2vh;
 }
